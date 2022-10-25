@@ -1,0 +1,23 @@
+body{
+    display: grid;
+    grid-template-columns: 37% 63%;
+    grid-template-rows: 35% 65%;
+    width: 2550px;
+    height: 3300px;
+}
+
+#headshot
+{
+    grid-area: 1 / 1 / 2 / 2;
+    background-color: black;
+}
+#generalInfo
+{
+    grid-area: 2 / 1 / 3 / 2;
+    background-color: green;
+}
+#details
+{
+    grid-area: 1 / 2 / 3 / 3;
+    background-color: indigo;
+}
